@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,700&family=Poppins:wght@500;600;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar .nav-link {
+   font-weight: 800;
+}
+.jumbotron {
+    background-image: url(img/jbt2.jpg);
+    background-size: cover;
+    height: 500px;
+    filter: brightness(85%);
+}
+.jumbotron .display-4 {
+    margin: auto;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+hr {
+    width: 160px;
+    border: 10px solid black;
+}
