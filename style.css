@@ -26,3 +26,7 @@ hr {
     width: 160px;
     border: 10px solid black;
 }
+.row {
+    margin: 0px;
+    padding: 0px;
+}
