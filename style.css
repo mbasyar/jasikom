@@ -34,9 +34,8 @@ hr {
     padding: 0px;
 }
 .jumbotron h1 {
-    color: rgb(38, 52, 255);
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
 }
 .jumbotron p {
     color: rgb(255, 255, 255);
