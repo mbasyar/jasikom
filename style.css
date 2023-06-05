@@ -63,17 +63,6 @@
     font-weight: 700;
 }
 
-hr {
-    border: 10px solid black;
-    color: black;
-    background-color: black;
-    height: 2px;
-    position: absolute;
-    left: 50%; /* Mengatur posisi horizontal ke tengah */
-    transform: translateX(-50%); /* Mentranslasi garis agar berada di tengah */
-    width: 50%;
-
-}
 
 .row {
     margin: 0px;
