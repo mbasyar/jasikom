@@ -84,6 +84,19 @@
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.664);
 }
+
+.img-galery {
+    border: 1px solid none;
+    border-radius: 5px; 
+    overflow: hidden;
+}
+img {
+    transition: all 600ms ease-in-out;
+}
+.image:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
 .mid {
     transform: scale(1.05);
     border: 1px solid rgb(0, 0, 0);
@@ -130,9 +143,21 @@ input {
     * {
         font-size: 98%;
     }
+    .row {
+        text-align: justify;
+    }
     .description strong {
         font-size: 20px;
         font-weight: 200px;
         text-align: center;
+    }
+    footer .footer {
+        text-align: justify;
+    }
+    .about {
+        text-align: justify;
+    }
+    .navbar .nav-link:hover{
+        border-bottom: 1px solid none;
     }
 }
