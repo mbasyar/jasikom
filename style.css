@@ -3,20 +3,58 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Rubik', sans-serif;
+}
 
+.header{
+    height: 80vh;
 }
 .navbar {
     display: inline-block;
     position: fixed;
+    background-color: orangered;
+}
+
+.navbar-brand{
+    letter-spacing: 1px;
+}
+.img-logo{
+    border: 1px solid orangered;
+    border-radius: 20px;
+    height: 30px;
 }
 .navbar .nav-link {
-   font-weight: 800;
+   font-weight: 600;
+   transition: all;
+   transition-duration: 300ms;
+   border: 1px solid transparent;
 }
+.navbar .nav-link:hover{
+    border-bottom: 1px solid #fff;
+    color:#fff;
+    border-radius: 5px;
+   
+}
+.navbar-toggler {
+    border: 1px solid white;
+}
+
 .jumbotron {
     background-image: url(img/jar.jpg);
     background-size: cover;
     height: 500px;
     filter: brightness(85%);
+    display: flex;
+}
+.description {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.description strong {
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+    border-bottom: 1px solid orangered;
 }
 .jumbotron .display-4 {
     margin: auto;
@@ -24,10 +62,19 @@
     font-size: 40px;
     font-weight: 700;
 }
+
 hr {
-    width: 70%;
     border: 10px solid black;
+    color: black;
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    left: 50%; /* Mengatur posisi horizontal ke tengah */
+    transform: translateX(-50%); /* Mentranslasi garis agar berada di tengah */
+    width: 50%;
+
 }
+
 .row {
     margin: 0px;
     padding: 0px;
@@ -38,4 +85,65 @@ hr {
 }
 .jumbotron p {
     color: rgb(255, 255, 255);
+}
+.cardbody {
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: 1px solid none;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.664);
+}
+.mid {
+    transform: scale(1.05);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10 4px 6px rgb(0, 0, 0);
+}
+.service-desc {
+    color: rgb(0, 0, 0);
+}
+.rrr {
+    text-align: justify;
+}
+button {
+    padding: 12px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.klik {
+    border: none;
+    border-radius: 20px;
+}
+
+input {
+    border: 1px solid red;
+    background-color: red;
+}
+
+.form-group {
+    padding: 3px;
+}
+.form-group .form-control {
+    border: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+
+.partners {
+    margin-bottom: 10rem;
+}
+.contactme{
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:480px) {
+
+    * {
+        font-size: 98%;
+    }
+    .description strong {
+        font-size: 20px;
+        font-weight: 200px;
+        text-align: center;
+    }
 }
