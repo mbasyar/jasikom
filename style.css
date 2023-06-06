@@ -10,7 +10,6 @@
 }
 .navbar {
     display: inline-block;
-    position: fixed;
     background-color: orangered;
 }
 
@@ -77,12 +76,16 @@
 }
 .cardbody {
     background-color: whitesmoke;
-    padding: 10px 10px;
+    padding: 15px 10px;
     margin-top: 10px;
     border: 1px solid none;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.664);
+}
+.cardbody:hover {
+    cursor: pointer;
+    box-shadow: 1px 10px 7px rgba(0, 0, 0, 0.664);
 }
 
 .img-galery {
@@ -98,9 +101,8 @@ img {
     cursor: pointer;
 }
 .mid {
-    transform: scale(1.05);
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 10 4px 6px rgb(0, 0, 0);
+    transform: scale(1.0);
+    border: 1px solid transparent;
 }
 .service-desc {
     color: rgb(0, 0, 0);
@@ -110,7 +112,7 @@ img {
 }
 button {
     padding: 12px;
-    background-color: rgb(0, 0, 0);
+    background-color: orangered;
     color: white;
 }
 .klik {
@@ -136,6 +138,15 @@ input {
 }
 .contactme{
     margin-bottom: 4rem;
+}
+.kirim {
+    padding: 10px 17px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 6px;
+
 }
 
 @media screen and (max-width:480px) {
