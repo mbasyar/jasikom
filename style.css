@@ -1,21 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-.header{
+/* .header{
     height: 80vh;
-}
+} */
 .navbar {
     display: inline-block;
-    background-color: orangered;
+    background-color: rgba(75,85,97,255);
     position: fixed;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand{
     letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
 }
 .img-logo{
     border: 1px solid orangered;
@@ -92,8 +96,9 @@
     border-radius: 5px; 
     overflow: hidden;
 }
-img {
+.image {
     transition: all 600ms ease-in-out;
+    width: 350px;
 }
 .image:hover {
     transform: scale(1.15);
@@ -111,7 +116,7 @@ img {
 }
 button {
     padding: 12px;
-    background-color: orangered;
+    background-color: rgba(75,85,97,255);
     color: white;
 }
 .klik {
